@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+  
+  body {
+    font-family: 'Work Sans', sans-serif;
+    color: #020101;
+  }
+
+  .heading{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 45px;
+    margin: 25px;
+    font-weight: bolder;
+  }
+  .app-background {
+    background-color: #B33771;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .main-container {
+    background-color: #CAD3C8;
+    width: 400px;
+    height: min-content;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.35);
+  }
+  
+  .add-item-box {
+    background-color: #B33771;
+    color: #020101;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 4px;
+  }
+  
+  .add-item-input {
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    color: #CAD3C8;
+    width: 100%;
+    height: 30px;
+  }
+  
+  input::placeholder {
+    color: #020101;
+  }
+  input:focus {
+    outline: 0;
+  }
+  
+  .item-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px #020101 solid;
+  }
+  
+  .item-name {
+    cursor: pointer;
+  }
+  
+  .item-name svg {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .total, .delete_btn {
+    float: right;
+    padding: 9px;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    border: 1px solid #020101;
+    background: white;
+    border-radius: 50px;
+    font-size: 12px;
+    color: #020101;
+    min-width: 70px;
+    justify-content: space-between;
+  }
+  
+  button {
+    background: transparent;
+    border: none;
+    margin: 3px;
+    color: #020101;
+  }
+  button:focus {
+    outline: 0;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
